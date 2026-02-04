@@ -1,9 +1,22 @@
 {
   "$schema": "https://opencode.ai/config.json",
   "provider": {
-    "opencode": {
-      "options": {},
-    },
+    "llama.cpp": {
+      "npm": "@ai-sdk/openai-compatible",
+      "name": "llama-server (local)",
+      "options": {
+        "baseURL": "http://127.0.0.1:5051/v1"
+      },
+      "models": {
+        "Nemotron3 nano": {
+          "name": "Nemotron3 nano (local)",
+          "limit": {
+            "context": 262144,
+            "output": 65536
+          }
+        }
+      }
+    }
   },
   "mcp": {},
   "tools": {
