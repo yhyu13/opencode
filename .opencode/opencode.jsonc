@@ -14,6 +14,13 @@
             "context": 262144,
             "output": 65536
           }
+        },
+        "GLM4.7 Flash llamacpp": {
+          "name": "GLM4.7 Flash (local)",
+          "limit": {
+            "context": 131072,
+            "output": 65536
+          }
         }
       }
     }
@@ -23,4 +30,7 @@
     "github-triage": false,
     "github-pr-search": false,
   },
+  "plugin": [
+    "file:///home/hangyu5/Documents/Gitrepo-My/oh-my-opencode/dist/index.js"
+  ]
 }
