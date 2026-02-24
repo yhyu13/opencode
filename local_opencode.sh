@@ -1,8 +1,8 @@
 #!/bin/bash
 
-cd ../oh-my-opencode
+cd ./plugins/oh-my-opencode
 bun run build
-cd ../opencode
+cd ../../
 
 # Set the first argument to dir
 dir="$1"
