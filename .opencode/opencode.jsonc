@@ -31,6 +31,6 @@
     "github-pr-search": false,
   },
   "plugin": [
-    "file:///home/hangyu5/Documents/Gitrepo-My/oh-my-opencode/dist/index.js"
+    "file:///home/hangyu5/Documents/Gitrepo-My/opencode/plugins/oh-my-opencode/dist/index.js"
   ]
 }

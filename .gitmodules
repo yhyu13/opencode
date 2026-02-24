@@ -1,0 +1,4 @@
+[submodule "plugins/oh-my-opencode"]
+	path = plugins/oh-my-opencode
+	url = https://github.com/yhyu13/oh-my-opencode.git
+	branch = local
